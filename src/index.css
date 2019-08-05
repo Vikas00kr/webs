@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Josefin Sans", "Roboto", "Oxygen", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.font1{
+  font-family: "Josefin Sans" !important;
+}
+
+.font2{
+  font-family: "Josefin Slab" !important;
+}
+
+.color-1{
+  background-color:#E2DB19 !important;
+}
+.color-2{
+  background-color:#FF5D00 !important;
+}
+.color-3{
+  background-color:#3B363C !important;
+}
+.color-4{
+  background-color:#F3F7F3 !important;
+} 
+
+.text-color-1{
+  color:#E2DB19 !important;
+}
+.text-color-2{
+  color:#FF5D00 !important;
+}
+.text-color-3{
+  color:#3B363C !important;
+}
+.text-color-4{
+  color:#F3F7F3 !important;
+}
+
+.font-size-1{
+  font-size: 64px !important;
+}
+
+.font-size-2{
+  font-size: 24px !important;
+}
+
+.font-size-3{
+  font-size: 18px !important;
+}
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+}
+
+.carousel-box{
+    width: 300px;
+    left: 40%;
+    top: 38%;
+    border: 10px solid rgba(58, 57, 58, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    height: 180px;  
+}
