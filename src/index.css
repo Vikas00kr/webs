@@ -10,6 +10,19 @@ code {
     monospace;
 }
 
+.width-60{
+  width: 60%!important;
+}
+.width-70{
+  width: 70%!important;
+}
+.width-80{
+  width: 80%!important;
+}
+.width-90{
+  width: 90%!important;
+}
+
 .font1{
   font-family: "Josefin Sans" !important;
 }
@@ -29,7 +42,12 @@ code {
 }
 .color-4{
   background-color:#F3F7F3 !important;
-} 
+}
+
+.color-5{
+  background-color:#f9aa7a !important;
+}
+
 
 .text-color-1{
   color:#E2DB19 !important;
@@ -42,6 +60,51 @@ code {
 }
 .text-color-4{
   color:#F3F7F3 !important;
+}
+.text-color-5{
+  color:#f9aa7a !important;
+}
+
+.border-color-1{
+  border-color:#E2DB19 !important;
+  color:#E2DB19 !important;
+}
+.border-color-2{
+  border-color:#FF5D00 !important;
+  color:#FF5D00 !important;
+}
+.border-color-3{
+  border-color:#3B363C !important;
+  color:#3B363C !important;
+}
+.border-color-4{
+  border-color:#F3F7F3 !important;
+  color:#F3F7F3 !important;
+}
+.border-color-5{
+  border-color:#f9aa7a !important;
+  color:#f9aa7a !important;
+}
+
+.border-color-1:hover{
+  background-color:#E2DB19 !important;
+  color:#ffffff !important;
+}
+.border-color-2:hover{
+  background-color:#FF5D00 !important;
+  color:#ffffff !important;
+}
+.border-color-3:hover{
+  background-color:#3B363C !important;
+  color:#ffffff !important;
+}
+.border-color-4:hover{
+  background-color:#F3F7F3 !important;
+  color:#3B363C !important;
+}
+.border-color-5:hover{
+  border-color:#f9aa7a !important;
+  color:#3B363C !important;
 }
 
 .font-size-1{
@@ -70,4 +133,78 @@ code {
     background-color: rgba(0, 0, 0, 0.1);
     z-index: 999;
     height: 180px;  
+}
+
+.box-left{
+  width: 300px;
+  border: 10px solid rgba(58, 57, 58, 0.5);
+  height: 180px;
+  padding-top: .5rem;
+  text-align: left;
+}
+
+.box-right{
+  width: 300px;
+  border: 10px solid rgba(58, 57, 58, 0.5);
+  height: 180px;
+  padding-top: .5rem;
+  text-align: left;
+}
+
+.box-left p{  
+  margin-left: 50%;
+}
+
+.box-right p{
+  margin-left: -50%;
+}
+
+.bgImage{
+  background-image: url('/images/caspar-camille-rubin-669071-unsplash.jpg'); 
+  /* background-position: 0 -50px;  */
+  width: 100%; 
+  height: 100%;
+}
+
+.position-overlay{
+  position: absolute;
+  left: 40%;
+  /* z-index: 999; */
+  height: 1160px;
+  margin-top: 7%;
+  width: 50%;
+}
+
+.overlay-height{
+  height: 1365px;
+}
+
+ul.list-dashed {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+ul.list-dashed > li {
+  text-indent: -5px;
+}
+
+ul.list-dashed > li:before {
+  content: " - ";
+  text-indent: -5px;
+}
+
+.list-header{
+  border-bottom: #3B363C solid 5px;
+
+}
+
+.list-header > span{
+  position: relative;
+  top: 1.2rem;
+  padding-left: 1rem;
+}
+
+.push-right > *{
+  float: right;
 }
